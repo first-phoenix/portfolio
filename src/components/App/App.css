@@ -1,0 +1,15 @@
+body {
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    /* font-family: 'Roboto Mono', monospace; */
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
