@@ -1,5 +1,7 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
+// We can use BrowserRouter, HashRouter and MemoryRouter as well
+
 import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Home from '../Home/Home';
@@ -24,7 +26,7 @@ const App = () => {
     return (
         <div>
             {/* <h1>Hello World</h1> */}
-            <BrowserRouter>
+            <HashRouter>
                 <div>
                     < NavBar />
                     <Route path="/" exact component={Home} />
@@ -34,7 +36,7 @@ const App = () => {
                     <Route path="/contact" component={Contact} />
                     <GoHome />
                 </div>
-            </BrowserRouter>
+            </HashRouter>
         </div>
     )
 }
