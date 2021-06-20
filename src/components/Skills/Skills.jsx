@@ -12,7 +12,7 @@ const Skills = () => {
         <div className='section-container'>
             < Header
                 heading="My Skills"
-                details="Put Details here"
+                details=" "
             />
 
             <div className="skill-card-container">

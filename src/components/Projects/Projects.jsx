@@ -10,7 +10,7 @@ const Projects = () => {
         <div className='section-container'>
             < Header
                 heading="My projects in short"
-                details="Add lines here"
+                details=" "
 
             />
 

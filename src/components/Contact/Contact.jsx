@@ -12,7 +12,7 @@ const Contact = () => {
         <div className='section-container'>
             <Header
                 heading="Get in touch"
-                details="Hey Contact me"
+                details="Hey wanna contact me?"
 
 
             />
