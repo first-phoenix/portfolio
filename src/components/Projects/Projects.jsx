@@ -2,6 +2,8 @@ import React from 'react';
 import FooterLink from '../FooterLink/FooterLink';
 import Header from '../Header/Header';
 import './Projects.css';
+import { projectsData } from './../../assets/projectsData';
+import ProjectCard from './ProjectCard';
 
 const Projects = () => {
     return (
@@ -11,6 +13,26 @@ const Projects = () => {
                 details="Add lines here"
 
             />
+
+            <div className="project-cards-container">
+                {projectsData.map(({
+                    projectName,
+                    projectDescription,
+                    imageUrl,
+                    videoUrl,
+                    projectUrl
+
+                }) => {
+                    return < ProjectCard
+                        projectName={projectName}
+                        projectDescription={projectDescription}
+                        imageUrl={imageUrl}
+                        videoUrl={videoUrl}
+                        projectUrl={projectUrl}
+
+                    />
+                })}
+            </div>
 
             < FooterLink
                 phrase="Check out"
