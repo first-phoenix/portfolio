@@ -9,6 +9,7 @@ const FooterLink = ({ phrase, link, toAdress }) => {
             < Link to={toAdress} className='footer-link-element'>
                 {link}
             </Link>
+            <p className="last-footer">Made with &#10084;&#65039; from Swaraj</p>
         </div>
     );
 }

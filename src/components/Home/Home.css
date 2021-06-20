@@ -38,6 +38,17 @@
     margin: 10px;
 }
 
+.landing-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.typewriter-container {
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
 .head-btns {
     /* font-family: monospace;
     font-size: large;

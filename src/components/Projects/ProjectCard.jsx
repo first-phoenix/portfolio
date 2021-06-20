@@ -5,7 +5,7 @@ const ProjectCard = ({
     projectName,
     projectDescription,
     imageUrl,
-    videoUrl,
+    // videoUrl,
     projectUrl
 
 }) => {
@@ -24,9 +24,9 @@ const ProjectCard = ({
             <div className='project-details-container'>
                 <h2 className='project-heading'>{projectName}</h2>
                 <p className='project-details'>{projectDescription}</p>
-                <a href={videoUrl} className='project-yt-link'>
+                {/* <a href={videoUrl} className='project-yt-link'>
                     Watch More!
-                </a>
+                </a> */}
             </div>
         </div>
     );

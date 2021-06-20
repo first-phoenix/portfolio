@@ -35,8 +35,8 @@ const Projects = () => {
             </div>
 
             < FooterLink
-                phrase="Check out"
-                link="My Skills"
+                phrase="Check out "
+                link="my Skills"
                 toAdress="/skills"
             />
             {/* <h1>I am the projects page</h1> */}

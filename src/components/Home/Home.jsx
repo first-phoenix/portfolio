@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './Home.css';
 import homeAnime from './../../assets/home_anime.gif';
 import Modal from '../Modal/Modal';
+import Typewriter from "typewriter-effect";
 
 class Home extends Component {
 
@@ -25,10 +26,26 @@ class Home extends Component {
     render() {
         return (
             <div className="home-container">
-                {this.state.showModal && < Modal closeModal={this.closeModal} />}
+                {/* {this.state.showModal && < Modal closeModal={this.closeModal} />} */}
                 <div className="header-text">
-                    <h1>Welcome to my Portfolio</h1>
-                    <p>This is Swaraj</p>
+                    <h1>Hello World</h1>
+                    <p>from Swaraj</p>
+                    <br />
+                    <br />
+                </div>
+                <div className="landing-container">
+                    <div data-aos="fade-right" className="landing-left">
+                        <h1 className="landing-header">Hey! I am Swaraj</h1>
+                        <div className="typewriter-container">
+                            <Typewriter
+                                options={{
+                                    strings: ["Programmer!", "Developer!", "Learner!"],
+                                    autoStart: true,
+                                    loop: true,
+                                }}
+                            />
+                        </div>
+                    </div>
                 </div>
                 <div className="head-btns">
                     <Link to="/about" className="btn btn-white">
@@ -45,7 +62,10 @@ class Home extends Component {
                         className="home-anime" />
                 </div>
 
+
+
             </div>
+
         );
     }
 }

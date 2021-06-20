@@ -6,6 +6,7 @@ import skillsVector from './../../assets/skills_vector.png'
 import { skillList } from './../../assets/skillsData';
 import SkillCard from './SkillCard';
 
+
 const Skills = () => {
     return (
         <div className='section-container'>
@@ -24,6 +25,7 @@ const Skills = () => {
                         return < SkillCard skillName={skillName} skillUrl={skillUrl} />
                     })
                 }
+
             </div>
 
             < FooterLink

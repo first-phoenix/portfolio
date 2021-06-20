@@ -1,4 +1,23 @@
-export const skillList = [
+export const skillList = [{
+        skillName: 'Java',
+        skillUrl: 'https://madhavbahl.tech/portfolio-assets/java.png',
+    },
+    {
+        skillName: 'C#',
+        skillUrl: 'https://madhavbahl.tech/portfolio-assets/cs.png',
+    },
+    {
+        skillName: 'SQL',
+        skillUrl: 'https://icons-for-free.com/download-icon-vscode+icons+type+sql-1324451491579630520_512.png',
+    },
+    {
+        skillName: 'Software Development',
+        skillUrl: 'https://img.icons8.com/nolan/96/computer.png',
+    },
+    {
+        skillName: 'OOP',
+        skillUrl: 'https://img.icons8.com/fluent/240/000000/object.png',
+    },
     {
         skillName: 'HTML',
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/html.png',
@@ -15,28 +34,6 @@ export const skillList = [
         skillName: 'React',
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/react.png',
     },
-    {
-        skillName: 'Redux',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/redux.png',
-    },
-    {
-        skillName: 'NodeJS',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/node.png',
-    },
-    {
-        skillName: 'TypeScript',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/ts.png',
-    },
-    {
-        skillName: 'Java',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/java.png',
-    },
-    {
-        skillName: 'C#',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/cs.png',
-    },
-    {
-        skillName: 'MongoDB',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/mongo.png',
-    },
+
+
 ];
